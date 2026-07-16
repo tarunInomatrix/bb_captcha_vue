@@ -4,7 +4,7 @@ import { ref } from "vue";
 const email = ref("");
 const password = ref("");
 
-const dataApiKey = "your-api-key";
+const dataApiKey = "3ee57ddd-2946-449a-9908-8a28d7ce3960";
 const dataActionId = "login";
 const dataEmailElement = "email";
 const currentURL = typeof window !== "undefined" ? window.location.href : "";

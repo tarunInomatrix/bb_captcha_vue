@@ -18,7 +18,7 @@ const injectCdnScript = (userEmail: string) => {
   }
   const script = document.createElement("script");
   script.id = "botbuster-script";
-  script.src = "https://cdn.jsdelivr.net/gh/tarunInomatrix/captcha-script@bc3e2cb74bf9967ea2b0ea1309e007f84b0149f7/quick-check-inject.js";
+  script.src = "https://botbuste.b-cdn.net/quick-check-inject.js";
   script.async = true;
   script.setAttribute("data-api-key", dataApiKey);
   script.setAttribute("data-email", userEmail);

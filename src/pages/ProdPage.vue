@@ -6,7 +6,7 @@ const password = ref("");
 const scriptStatus = ref<"idle" | "injecting" | "loaded" | "error">("idle");
 const statusMessage = ref("Waiting for form submission");
 
-const dataApiKey = "3ee57ddd-2946-449a-9908-8a28d7ce3960";
+const dataApiKey = "63a1d49b-3a0d-45fc-b9f5-ecbdb853a2f0";
 const cdnUrl = "https://botbuste.b-cdn.net/prod/quick-check-inject-prod.js";
 const dataActionId = "login";
 const dataEmailElement = "email";
